@@ -12,3 +12,5 @@ def test_get_hotel_meta_negative_is_404():
     hotel_meta_negative.check_response_is_404()
     hotel_meta_negative.check_response_message_negative_is_404()
 
+
+

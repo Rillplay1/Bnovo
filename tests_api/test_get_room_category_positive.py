@@ -10,4 +10,4 @@ def test_get_hotel_room_category_positive(random_account_id):
     get_room_category_data.check_account_id_is_integer("account_id")
     get_room_category_data.check_response_adults_and_children()
     get_room_category_data.check_response_photos()
-    get_room_category_data.check_response_locations()
+    get_room_category_data.check_response_localisation()
